@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eschoolsl">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".noload"></activity>
+        <activity android:name=".ppage" />
+        <activity android:name=".plesson" />
+        <activity android:name=".gamec" />
+        <activity android:name=".gameb" />
+        <activity android:name=".paper" />
+        <activity android:name=".game" />
+        <activity android:name=".menue" />
+        <activity android:name=".menut" />
+        <activity android:name=".menus" />
+        <activity android:name=".page" />
+        <activity android:name=".lesson" />
+        <activity android:name=".subject" />
+        <activity android:name=".load" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
